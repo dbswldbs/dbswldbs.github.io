@@ -1,0 +1,43 @@
+<style>
+div{
+  margin-left: 30px;
+  margin-right: 70px;
+  margin-bottom: 10px;
+}
+body{
+  margin:0;
+  margin-left: 30px;
+  margin-right: 100px;
+}
+a{
+  color:black;
+  text-decoration: none;
+}
+h1{
+  font-size:45px;
+  text-align:center;
+  border-bottom: 1px solid gray;
+  margin: 0;
+  padding:20px;
+}
+
+#list {background : mistyrose;}
+#grid{
+  display:grid;
+  grid-template-columns: 150px lfr;
+}
+#grid ul{
+  padding-left: 33px;
+  padding:20px;
+}
+@media(max-width:800px){
+  #grid{
+    display: block;
+  }
+  ol{border-right: none;
+  }
+  h1{
+    border-bottom: none;
+  }
+}
+</style>
